@@ -6,7 +6,6 @@ This document presents the transition from semi-analytical to data-driven method
 
 
 ## Input data
-We start with AquaSat[[1]](#1), a dataset with about 600,000 paired observations of water quality running from 1984-2019. Aquasat can be downloaded from https://figshare.com/articles/dataset/AquaSat/8139383. The present approach takes advantage of 
 
 
 Our analysis begins with AquaSat[[1]](#1), a database for water clarity measurement. This database comprises 603,432 records, including intensity values for various multispectral bands from the Landsat 5, 7, and 8 platforms and depths associated with the Secchi disk. The data in AquaSat is processed at the L1TP level (Precision and Terrain Correction), which corrects for radiometric and geometric issues, including sensor irregularities and distortions due to the Earth's rotation. In 2017, the USGS introduced the L2SP processing level (Level-2 Science Products), which accounts for atmospheric effects, such as absorption and scattering phenomena. Consequently, we extract the L2SP collection values for the geographic locations in the AquaSat database through queries to Google Earth Engine collections. Due to the presence of stripes in some Landsat 7 images and our aim to maximize the probability of obtaining high-quality pixels, our focus is exclusively on the Landsat 8 platform, yielding 33,261 observations. 

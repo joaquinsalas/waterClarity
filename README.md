@@ -6,9 +6,8 @@ This document presents the transition from semi-analytical to data-driven method
 
 
 ## Input data
-We start with AquaSat, a dataset with about 600,000 paired observations of water quality running from 1984-2019. Aquasat can be downloaded from https://figshare.com/articles/dataset/AquaSat/8139383
+We start with AquaSat[[1]], a dataset with about 600,000 paired observations of water quality running from 1984-2019. Aquasat can be downloaded from https://figshare.com/articles/dataset/AquaSat/8139383
 
-Since 
 
 
 
@@ -22,21 +21,11 @@ The program 'ensemble.py' uses these files to train the ensemble 20 times, on di
 
 
 
-AquaSat: A Data Set to Enable Remote Sensing of Water Quality for Inland Waters
 
-
-
-@article{ross2019aquasat,
-  title={AquaSat: A data set to enable remote sensing of water quality for inland waters},
-  author={Ross, Matthew RV and Topp, Simon N and Appling, Alison P and Yang, Xiao and Kuhn, Catherine and Butman, David and Simard, Marc and Pavelsky, Tamlin M},
-  journal={Water Resources Research},
-  volume={55},
-  number={11},
-  pages={10012--10025},
-  year={2019},
-  publisher={Wiley Online Library}
-}
-
+## References
+<a id="1">[1]</a>
+Ross, Matthew;  Topp, Simon; Appling, Alison; Yang, Xiao; Kuhn, Catherine; Butman, David; Simard, Marc; Pavelsky, Tamlin. AquaSat: A data set to enable remote sensing of water quality for inland waters. Water Resources Research.
+2019.
 
 ### BibTeX
 

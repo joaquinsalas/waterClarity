@@ -15,10 +15,7 @@ Since
 
 ## Ensemble
 
-Use the file ensemble_ft.py to fine tune the ensemble. This file will take the models
-* NN: ../models/NN_model_20240227.h5
-
-
+Our program fine-tunes an ensemble model by estimating the optimal architecture to aggregate individual regressors. Utilizing the script `ensemble_ft.py`, we integrate the following models: a neural network (`../models/NN_model_20240227.h5`), XGBoost (`../models/best_xgb_model_20240227.pkl`), and support vector regression (`../models/best_svr_model.pkl`). The dataset used for this process is located at `../data/20230930_aquasat.csv`. Normalization parameters for the dataset, obtained from the training split, are stored in `../data/normalization_scaler_20240227.pkl`. Our approach involves a neural network-based architecture for aggregating the regressors, where hyperparameters are meticulously fine-tuned to achieve the best performance. The resulting optimized model is saved at `../models/best_ens_model_20240227.h5`. Before determining the best hyperparameters for the ensemble neural network, predictions from the individual regressors are normalized using parameters stored in `../data/ensemble_normalization_scaler_20240227.pkl`.
 
 
 AquaSat: A Data Set to Enable Remote Sensing of Water Quality for Inland Waters

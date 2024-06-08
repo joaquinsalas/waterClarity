@@ -18,6 +18,10 @@ Since
 Our program fine-tunes an ensemble model by estimating the optimal architecture to aggregate individual regressors. Utilizing the script `ensemble_ft.py`, we integrate the following models: a neural network (`../models/NN_model_20240227.h5`), XGBoost (`../models/best_xgb_model_20240227.pkl`), and support vector regression (`../models/best_svr_model.pkl`). The dataset used for this process is located at `../data/20230930_aquasat_L2_C2.csv`. Normalization parameters for the dataset, obtained from the training split, are stored in `../data/normalization_scaler_20240227.pkl`. Our approach involves a neural network-based architecture for aggregating the regressors, where hyperparameters are meticulously fine-tuned to achieve the best performance. The resulting optimized model is saved at `../models/best_ens_model_20240227.h5`. Before determining the best hyperparameters for the ensemble neural network, predictions from the individual regressors are normalized using parameters stored in `../data/ensemble_normalization_scaler.pkl`.
 
 
+The program 'ensemble.py' uses these files to train the ensemble 20 times, on different data partitions. The performance is evaluated on the testing partition.
+
+
+
 AquaSat: A Data Set to Enable Remote Sensing of Water Quality for Inland Waters
 
 

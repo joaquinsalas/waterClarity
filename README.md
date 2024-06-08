@@ -6,7 +6,7 @@ This document presents the transition from semi-analytical to data-driven method
 
 
 ## Input data
-We start with AquaSat[[1]], a dataset with about 600,000 paired observations of water quality running from 1984-2019. Aquasat can be downloaded from https://figshare.com/articles/dataset/AquaSat/8139383
+We start with AquaSat[[1]](#1), a dataset with about 600,000 paired observations of water quality running from 1984-2019. Aquasat can be downloaded from https://figshare.com/articles/dataset/AquaSat/8139383
 
 
 

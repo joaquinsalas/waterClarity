@@ -33,8 +33,8 @@ Ross, Matthew;  Topp, Simon; Appling, Alison; Yang, Xiao; Kuhn, Catherine; Butma
 @article{salas2024water, <br>
    author = {Joaquín Salas, Rodrigo Sepúlveda, and~Pablo Vera}, <br>
    title = {Water Clarity Assessment through Satellite Imagery and Machine Learning}, <br>
-   journal = {IEEE LATAM Transactions},  <br>
-   year = {2024}<br>
+   journal = {MDPI Water},  <br>
+   year = {2025}<br>
 } 
 
 
